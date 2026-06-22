@@ -1,7 +1,7 @@
 "use client";
 
 import { Terminal as TerminalIcon, Cloud, Layout } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { projectsData } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 import Skills from "../components/Skills";
@@ -10,17 +10,18 @@ import Terminal from "../components/Terminal";
 
 export default function Home() {
   // Configurations des animations (effet de cascade / stagger)
-  const containerVariants = {
+  // Configurations des animations
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15, // Délai entre l'apparition de chaque élément
+        staggerChildren: 0.15,
       },
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 25 },
     visible: {
       opacity: 1,
