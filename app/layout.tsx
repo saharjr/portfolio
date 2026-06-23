@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Ingénieur Logiciel & UX",
+  title: "Portfolio | Ingénieur Informatique ",
   description: "Portfolio démontrant des compétences en Cloud, IA, Web et Mobile.",
 };
 
