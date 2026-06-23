@@ -45,7 +45,7 @@ export default function Home() {
           className="text-5xl font-bold tracking-tight sm:text-6xl text-slate-900 dark:text-white"
           variants={itemVariants}
         >
-          Ingénieur Informatique <span className="text-blue-500">&</span> Designer UX/UI
+          Software Engineering Student <span className="text-blue-500">&</span> Designer UX/UI
         </motion.h1>
         
         {/* Description animée */}

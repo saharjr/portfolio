@@ -66,7 +66,7 @@ export default function Contact() {
 
       <footer className="mt-20 text-center text-slate-500 dark:text-slate-500 text-sm flex flex-col items-center justify-center space-y-2">
           <p>© {new Date().getFullYear()} - Développé avec <span className="text-red-500">❤</span> Next.js & Tailwind CSS.</p>        
-          <p>© {new Date().getFullYear()} - Développé Sahar Jarboui.</p>
+          <p>© {new Date().getFullYear()} - Développé par Sahar Jarboui.</p>
 
       </footer>
     </section>
