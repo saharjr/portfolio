@@ -8,7 +8,7 @@ export default function Contact() {
 
   const handleCopyEmail = () => {
     // Remplacez par votre vraie adresse e-mail
-    navigator.clipboard.writeText("jarbouiisahar@gmail.com");
+    navigator.clipboard.writeText("sahar.jarboui@ipsas.tn");
     setIsCopied(true);
     
     // Remet le bouton à son état initial après 2 secondes
@@ -66,7 +66,6 @@ export default function Contact() {
 
       <footer className="mt-20 text-center text-slate-500 dark:text-slate-500 text-sm flex flex-col items-center justify-center space-y-2">
           <p>© {new Date().getFullYear()} - Développé avec <span className="text-red-500">❤</span> Next.js & Tailwind CSS.</p>        
-          <p>© {new Date().getFullYear()} - Développé par Sahar Jarboui.</p>
 
       </footer>
     </section>
