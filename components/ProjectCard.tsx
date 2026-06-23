@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
 
-      {/* Section Impact / Résultat */}
+      {/* Section Impact / Résultats */}
       <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700/50">
         <p className="text-xs text-slate-500 dark:text-slate-400 italic">
           <span className="font-semibold text-slate-700 dark:text-slate-300">Impact :</span> {project.impact}
