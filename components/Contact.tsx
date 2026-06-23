@@ -65,10 +65,8 @@ export default function Contact() {
       </div>
 
       <footer className="mt-20 text-center text-slate-500 dark:text-slate-500 text-sm flex flex-col items-center justify-center space-y-2">
-        <p>© {new Date().getFullYear()} - Développé avec Next.js & Tailwind CSS.</p>
-        <p className="flex items-center gap-1">
-          Score d&apos;accessibilité et de performance visé : <span className="font-mono bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 px-2 py-0.5 rounded">100/100</span>
-        </p>
+        <p>© {new Date().getFullYear()} - Développé avec <LOVE>❤</LOVE> Next.js & Tailwind CSS.</p>
+        
       </footer>
     </section>
   );
